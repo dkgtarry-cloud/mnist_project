@@ -22,12 +22,17 @@ Conv2d(1, 32, 3, 1) → Conv2d(32, 64, 3, 1) → MaxPool2d(2)
 # 使用方法
 
 训练模型
+```bash
 python train.py
+```
 训练完成后会生成模型文件：
+```bash
 mnist_cnn.pth
-
+```
 推理测试
+```bash
 python inference.py sample.png
+```
 预测类别：5
 
 # 项目结构
